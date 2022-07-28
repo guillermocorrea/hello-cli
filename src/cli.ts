@@ -9,9 +9,7 @@ import figlet from 'figlet';
 
 clear();
 console.log(
-  chalk.green(
-    figlet.textSync('people-highlights cli', { horizontalLayout: 'full' })
-  )
+  chalk.green(figlet.textSync('hello cli', { horizontalLayout: 'full' }))
 );
 
 yargs(hideBin(process.argv))
